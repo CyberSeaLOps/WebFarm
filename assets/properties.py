@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 
-major_update = 1
-minor_update = 0
-patch_update = 0
-version = str(major_update) + '.' + str(minor_update) + '.' + str(patch_update)
-
+total_major_changes = 1
+total_modules = 0
+total_categories = 0
 total_scripts = 0
+total_content = total_scripts
+version = str(total_major_changes) + '.' + str(total_modules) + '.' + str(total_categories) + '.' + str(total_content)
+
 clear_screen = 'clear'
